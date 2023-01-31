@@ -168,6 +168,7 @@ const tick = () =>
 
     // Update controls
     controls.update()
+    galaxy.rotation.y = elapsedTime * 0.05
 
     // Render
     renderer.render(scene, camera)
